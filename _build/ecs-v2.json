@@ -1,7 +1,7 @@
 {
   "containerDefinitions": [
     {
-      "name": "landing-page-eb",
+      "name": "laravel-hda-ecs",
       "image": "arfian/laravel-ecs:latest",
       "cpu": 0,
       "memory": 256,
@@ -11,7 +11,7 @@
         }
       ],
       "dockerLabels" : {
-        "container" : "landing-page-eb",
+        "container" : "laravel-hda-ecs",
         "environment" : "development"
       },
       "logConfiguration" : {
