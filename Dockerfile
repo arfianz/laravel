@@ -4,7 +4,7 @@ FROM marcusmyers/laravel
 #STOPSIGNAL SIGKILL
 
 EXPOSE 80
-EXPOSE 8000
+EXPOSE 8181
 
 COPY . /usr/share/nginx/html;
 WORKDIR /usr/share/nginx/html;
