@@ -2,7 +2,7 @@
   "containerDefinitions": [
     {
       "name": "landing-page-eb",
-      "image": "dedewahyuh/laravel:latest",
+      "image": "arfian/laravel-ecs:latest",
       "cpu": 0,
       "memory": 256,
       "portMappings": [
